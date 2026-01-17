@@ -123,13 +123,13 @@
             <div class="flex justify-between items-center">
                 <span class="font-bold text-primary-dark">📊 מיפוי מתחרים</span>
                 <div class="hidden md:flex gap-4 text-sm">
+                    <a href="#purpose" class="hover:text-primary transition">מטרה</a>
                     <a href="#summary" class="hover:text-primary transition">סיכום</a>
-                    <a href="#marketing-analysis" class="hover:text-primary transition">ניתוח שפה</a>
                     <a href="#market-map" class="hover:text-primary transition">מפת שוק</a>
                     <a href="#competitors" class="hover:text-primary transition">מתחרים</a>
                     <a href="#tables" class="hover:text-primary transition">השוואה</a>
-                    <a href="#insights" class="hover:text-primary transition">תובנות</a>
                     <a href="#opportunities" class="hover:text-primary transition">הזדמנויות</a>
+                    <a href="#recommendations" class="hover:text-primary transition font-bold text-green-600">המלצות</a>
                 </div>
             </div>
         </div>
@@ -167,6 +167,210 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1.5: Document Purpose -->
+    <section id="purpose" class="py-12 bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6">📋 מטרת המסמך</h2>
+
+            <p class="text-lg text-gray-600 mb-6">מסמך זה נועד לתמוך ב-5 החלטות מרכזיות:</p>
+
+            <div class="grid md:grid-cols-5 gap-4">
+                <div class="bg-primary-light rounded-xl p-4 text-center">
+                    <span class="text-2xl block mb-2">🎯</span>
+                    <h3 class="font-bold text-primary-dark mb-1">מיצוב</h3>
+                    <p class="text-sm text-gray-600">איך להבדיל את היתר UP מהמתחרים?</p>
+                </div>
+                <div class="bg-primary-light rounded-xl p-4 text-center">
+                    <span class="text-2xl block mb-2">💰</span>
+                    <h3 class="font-bold text-primary-dark mb-1">תמחור</h3>
+                    <p class="text-sm text-gray-600">מה טווח המחירים ואיפה למקם את עצמנו?</p>
+                </div>
+                <div class="bg-primary-light rounded-xl p-4 text-center">
+                    <span class="text-2xl block mb-2">💬</span>
+                    <h3 class="font-bold text-primary-dark mb-1">מסרים</h3>
+                    <p class="text-sm text-gray-600">מה לומר ומה לא לומר?</p>
+                </div>
+                <div class="bg-primary-light rounded-xl p-4 text-center">
+                    <span class="text-2xl block mb-2">📢</span>
+                    <h3 class="font-bold text-primary-dark mb-1">ערוצים</h3>
+                    <p class="text-sm text-gray-600">איפה המתחרים ואיפה יש הזדמנות?</p>
+                </div>
+                <div class="bg-primary-light rounded-xl p-4 text-center">
+                    <span class="text-2xl block mb-2">⭐</span>
+                    <h3 class="font-bold text-primary-dark mb-1">בידול</h3>
+                    <p class="text-sm text-gray-600">מה היתרון התחרותי שלנו?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1.6: Scope & Definitions -->
+    <section id="scope" class="py-12 bg-bg-light border-b">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6">🔍 Scope והגדרות</h2>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- What's Included -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="font-bold text-lg mb-4 text-green-700 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">✓</span>
+                        מה נכלל במחקר
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-500 mt-1">•</span>
+                            <span><strong>שוק:</strong> שירותי רישוי והיתרי בנייה בישראל</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-500 mt-1">•</span>
+                            <span><strong>גיאוגרפיה:</strong> כל הארץ (דגש על מרכז)</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-green-500 mt-1">•</span>
+                            <span><strong>קהל:</strong> פרטיים + יזמים קטנים-בינוניים</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Direct Competitors -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="font-bold text-lg mb-4 text-blue-700 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">🎯</span>
+                        מתחרה ישיר
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-500 mt-1">•</span>
+                            <span>מציע היתרי בנייה כשירות עיקרי/משני</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-500 mt-1">•</span>
+                            <span>פונה לאותו קהל יעד</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-500 mt-1">•</span>
+                            <span>פעיל באותה גיאוגרפיה</span>
+                        </li>
+                    </ul>
+
+                    <h3 class="font-bold text-lg mt-6 mb-4 text-gray-500 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">↔️</span>
+                        מתחרה עקיף
+                    </h3>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li>• רישוי כחלק משירות רחב יותר</li>
+                        <li>• פונה לקהל שונה (B2B גדול בלבד)</li>
+                        <li>• פתרון חלופי (DIY, אדריכלים)</li>
+                    </ul>
+                </div>
+
+                <!-- Excluded -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="font-bold text-lg mb-4 text-red-700 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center">✗</span>
+                        מה לא נכלל
+                    </h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <span class="text-red-400 mt-1">•</span>
+                            <span><strong>מכוני בקרה</strong> - שירות משלים, לא מתחרה</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-red-400 mt-1">•</span>
+                            <span><strong>עורכי דין תו"ב</strong> - התמחות שונה</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-red-400 mt-1">•</span>
+                            <span><strong>יועצי שמאות בלבד</strong> - לא רישוי</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1.7: Methodology -->
+    <section id="methodology" class="py-12 bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6">📊 מתודולוגיה</h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Data Sources -->
+                <div class="bg-bg-light rounded-xl p-6">
+                    <h3 class="font-bold text-lg mb-4">איך נאסף המידע</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3">
+                            <span class="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center text-primary">🌐</span>
+                            <span>סריקת אתרים רשמיים של מתחרים (ינואר 2026)</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center text-primary">📄</span>
+                            <span>ניתוח עמודי שירותים, "אודות", ופרויקטים</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center text-primary">⭐</span>
+                            <span>בדיקת ביקורות Google (כמות + דירוג)</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center text-primary">📰</span>
+                            <span>סריקת כתבות ופורומים מקצועיים</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center text-primary">👥</span>
+                            <span>בדיקת נוכחות דיגיטלית (לינקדאין, פייסבוק)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Confidence Levels & Gaps -->
+                <div>
+                    <div class="bg-bg-light rounded-xl p-6 mb-4">
+                        <h3 class="font-bold text-lg mb-4">רמות וודאות</h3>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-3">
+                                <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">✅ וודאי</span>
+                                <span class="text-gray-600 text-sm">מידע מאתר רשמי / מקור ראשוני</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm font-medium">⚠️ הערכה</span>
+                                <span class="text-gray-600 text-sm">מבוסס על ראיות חלקיות</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm font-medium">❓ חסר</span>
+                                <span class="text-gray-600 text-sm">לא נמצא מידע</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-6">
+                        <h3 class="font-bold text-lg mb-3 text-yellow-800">⚠️ חורים במידע</h3>
+                        <ul class="space-y-1 text-sm text-yellow-900">
+                            <li>• <strong>תמחור</strong> - רוב המתחרים לא מפרסמים מחירים</li>
+                            <li>• <strong>נתחי שוק</strong> - אין נתונים פומביים</li>
+                            <li>• <strong>היקפי פעילות</strong> - מעריכים לפי סימנים</li>
+                            <li>• <strong>שביעות רצון</strong> - רק ביקורות פומביות</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 flex justify-center gap-8 text-center">
+                <div class="bg-primary-dark text-white rounded-xl px-6 py-3">
+                    <span class="text-2xl font-bold">26</span>
+                    <span class="text-sm opacity-80 block">מקורות נסרקו</span>
+                </div>
+                <div class="bg-primary-dark text-white rounded-xl px-6 py-3">
+                    <span class="text-2xl font-bold">17</span>
+                    <span class="text-sm opacity-80 block">מתחרים ישירים</span>
+                </div>
+                <div class="bg-primary-dark text-white rounded-xl px-6 py-3">
+                    <span class="text-2xl font-bold">5</span>
+                    <span class="text-sm opacity-80 block">מתחרים עקיפים</span>
+                </div>
             </div>
         </div>
     </section>
@@ -1638,10 +1842,154 @@
         </div>
     </section>
 
+    <!-- Section 7.5: Conclusions & Recommendations -->
+    <section id="recommendations" class="py-16 bg-gradient-to-b from-green-50 to-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8">🎯 מסקנות והמלצות פעולה</h2>
+
+            <!-- Key Insights -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 mb-8 border-2 border-green-200">
+                <h3 class="text-xl font-bold mb-6 text-green-800 flex items-center gap-2">
+                    <span class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">📌</span>
+                    3 תובנות מרכזיות
+                </h3>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-green-50 rounded-xl p-5">
+                        <div class="text-3xl font-bold text-green-600 mb-2">1</div>
+                        <h4 class="font-bold text-gray-800 mb-2">השוק מפוצל - אין שחקן שולט</h4>
+                        <p class="text-sm text-gray-600">רוב המתחרים ממוקדים בפלח אחד. אין מותג דומיננטי בפלח הפרטיים.</p>
+                    </div>
+                    <div class="bg-green-50 rounded-xl p-5">
+                        <div class="text-3xl font-bold text-green-600 mb-2">2</div>
+                        <h4 class="font-bold text-gray-800 mb-2">בידול הוא על אמון, לא על מחיר</h4>
+                        <p class="text-sm text-gray-600">המתחרים המצליחים בונים אמון דרך: הוכחות (ביקורות), ותק, וניסיון מתועד.</p>
+                    </div>
+                    <div class="bg-green-50 rounded-xl p-5">
+                        <div class="text-3xl font-bold text-green-600 mb-2">3</div>
+                        <h4 class="font-bold text-gray-800 mb-2">מכון בקרה = פער בשוק</h4>
+                        <p class="text-sm text-gray-600">אף מתחרה לא מציג מכון בקרה כשירות מרכזי. זו הזדמנות בידול.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Items -->
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <!-- HIGH Priority -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="bg-red-500 text-white px-6 py-3 flex items-center gap-2">
+                        <span class="text-xl">🔴</span>
+                        <span class="font-bold">HIGH - לעשות מיד</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div class="flex gap-4">
+                            <span class="w-8 h-8 bg-red-100 text-red-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</span>
+                            <div>
+                                <h4 class="font-bold text-gray-800">להגדיר מיצוב ברור</h4>
+                                <p class="text-sm text-gray-600 mt-1">"שקיפות + מכון בקרה + הוכחות תהליכיות"</p>
+                                <p class="text-xs text-red-600 mt-1">לא להתחרות על "ותק" או "מהירות" - שם כבר יש שחקנים חזקים.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span class="w-8 h-8 bg-red-100 text-red-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</span>
+                            <div>
+                                <h4 class="font-bold text-gray-800">לאסוף 10+ ביקורות Google</h4>
+                                <p class="text-sm text-gray-600 mt-1">מרכז היתרי בניה: 189 ביקורות. בסקון: 11 סרטונים.</p>
+                                <p class="text-xs text-red-600 mt-1">בלי הוכחות - קשה לבנות אמון.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MEDIUM Priority -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="bg-yellow-500 text-white px-6 py-3 flex items-center gap-2">
+                        <span class="text-xl">🟡</span>
+                        <span class="font-bold">MEDIUM - חודש-חודשיים</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div class="flex gap-4">
+                            <span class="w-8 h-8 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</span>
+                            <div>
+                                <h4 class="font-bold text-gray-800">לבנות עמוד "איך זה עובד" מפורט</h4>
+                                <p class="text-sm text-gray-600 mt-1">עם 6 שלבים ברורים, לו"ז משוער, ומה כלול/לא כלול.</p>
+                                <p class="text-xs text-yellow-700 mt-1">מרכז היתרי בניה ולבנות בשקט עושים את זה - זה עובד.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span class="w-8 h-8 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">4</span>
+                            <div>
+                                <h4 class="font-bold text-gray-800">להכין Case Study אחד מפורט</h4>
+                                <p class="text-sm text-gray-600 mt-1">עם תאריכים אמיתיים, מסמכים, ולו"ז בפועל.</p>
+                                <p class="text-xs text-yellow-700 mt-1">אף מתחרה לא עושה את זה - זה מבדל!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOW Priority -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="bg-green-500 text-white px-6 py-3 flex items-center gap-2">
+                    <span class="text-xl">🟢</span>
+                    <span class="font-bold">LOW - רבעון</span>
+                </div>
+                <div class="p-6">
+                    <div class="flex gap-4">
+                        <span class="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">5</span>
+                        <div>
+                            <h4 class="font-bold text-gray-800">לשקול שקיפות מחירית</h4>
+                            <p class="text-sm text-gray-600 mt-1">בסקון מפרסם טווחי מחירים (35-50K לבריכה). נדיר בשוק.</p>
+                            <p class="text-xs text-green-700 mt-1">אפשר להתחיל עם "מחשבון הערכה ראשונית".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- What NOT to do -->
+            <div class="bg-gray-800 text-white rounded-2xl p-8">
+                <h3 class="text-xl font-bold mb-6 flex items-center gap-2">
+                    <span class="text-2xl">⚠️</span>
+                    מה לא לעשות
+                </h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="flex items-center gap-3 bg-gray-700 rounded-lg p-4">
+                        <span class="text-red-400 text-xl">❌</span>
+                        <div>
+                            <span class="font-medium">לא להבטיח "הכי מהיר"</span>
+                            <span class="text-gray-400 text-sm block">אי אפשר להוכיח</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-gray-700 rounded-lg p-4">
+                        <span class="text-red-400 text-xl">❌</span>
+                        <div>
+                            <span class="font-medium">לא להשתמש במילה "קשרים"</span>
+                            <span class="text-gray-400 text-sm block">בעייתי אתית</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-gray-700 rounded-lg p-4">
+                        <span class="text-red-400 text-xl">❌</span>
+                        <div>
+                            <span class="font-medium">לא להתחרות על ותק</span>
+                            <span class="text-gray-400 text-sm block">שביב עושים את זה מ-1962</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-gray-700 rounded-lg p-4">
+                        <span class="text-red-400 text-xl">❌</span>
+                        <div>
+                            <span class="font-medium">לא לכתוב "שירות מקצועי"</span>
+                            <span class="text-gray-400 text-sm block">כולם אומרים, לא מבדל</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Section 8: Sources -->
     <section id="sources" class="py-16 bg-bg-light">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-2xl md:text-3xl font-bold mb-8">📚 מקורות המחקר (27)</h2>
+            <h2 class="text-2xl md:text-3xl font-bold mb-8">📚 מקורות המחקר (26)</h2>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Column 1: Enterprise -->
